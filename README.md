@@ -51,13 +51,8 @@ Or install tools individually:
 - **PLINK 1.9**: [https://www.cog-genomics.org/plink/1.9/](https://www.cog-genomics.org/plink/1.9/)
 - **R packages**: `data.table`, `magrittr`, `ggplot2`
 
-### 2. Download Tutorial Data
 
-Place the tutorial files in the `data/` folder:
-- **Base GWAS Summary Stats**: [`Height.gwas.txt.gz`](https://drive.google.com/file/d/1RWjk49QNZj9zvJHc9X_wyZ51fdy6xQjv/view?usp=sharing)
-- **Target Genotype Data**: Unzip [`EUR.zip`](https://drive.google.com/file/d/1uhJR_3sn7RA8U5iYQbcmTp6vFdQiF4F2/view?usp=sharing) so you have `EUR.bed`, `EUR.bim`, `EUR.fam`, `EUR.cov`, `EUR.height`.
-
-### 3. Run Pipeline
+### 2. Run Pipeline
 
 - **On Linux / macOS / Git Bash**:
   ```bash

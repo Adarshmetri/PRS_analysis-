@@ -1,0 +1,38 @@
+# Data files (do not commit large raw genomics datasets)
+data/
+*.bed
+*.bim
+*.fam
+*.gz
+*.zip
+*.id
+*.het
+*.cov
+*.height
+*.eigenvec
+*.eigenval
+
+# Intermediate PLINK and QC output files
+results/
+*.profile
+*.nosex
+*.log
+*.clumped
+*.prune.in
+*.prune.out
+*.mismatch
+*.a1
+*.valid*
+range_list
+SNP.pvalue
+
+# R environment and history
+.Rhistory
+.RData
+.Rproj.user/
+
+# Python / Conda / OS files
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

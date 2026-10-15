@@ -1,0 +1,13 @@
+name: prs-pipeline
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - plink=1.90b6.21
+  - r-base>=4.2.0
+  - r-data.table>=1.14.0
+  - r-magrittr>=2.0.0
+  - r-ggplot2>=3.4.0
+  - bash
+  - gzip
